@@ -1,11 +1,11 @@
+import { MeiliSearchOptions } from "./meilisearch.interface";
 import { DynamicModule, Global, Module } from "@nestjs/common";
-import { Config } from "meilisearch";
 import { MeiliSearchService } from "./meilisearch.service";
 
 @Module({})
 @Global()
 export class MeiliSearchModule {
-  static forRoot(config: Config): DynamicModule {
+  static forRoot(config: MeiliSearchOptions): DynamicModule {
     const providers = [
       {
         provide: MeiliSearchService,

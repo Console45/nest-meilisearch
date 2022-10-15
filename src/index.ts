@@ -1,4 +1,5 @@
 import { MeiliSearchService } from "./meilisearch.service";
-import { MeilSerchModule } from "./meilisearch.module";
+import { MeiliSearchModule } from "./meilisearch.module";
+import { MeiliSearchOptions } from "./meilisearch.interface";
 
-export { MeilSerchModule, MeiliSearchService };
+export { MeiliSearchModule, MeiliSearchService, MeiliSearchOptions };
