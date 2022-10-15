@@ -4,7 +4,7 @@ Nest-meilisearch is a simple nestjs wrapper around the [meilisearch-js](https://
 
 ## Installation
 
-This plugin requires you install the `meilisearch` package to work
+This plugin requires you to install the `meilisearch` package to work
 
 Installation with npm
 
