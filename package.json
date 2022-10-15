@@ -21,7 +21,7 @@
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "rimraf lib && tsc -p tsconfig.build.json",
-    "prepublish": "npm run build"
+    "prepack": "npm run build"
   },
   "version": "1.0.5",
   "directories": {
