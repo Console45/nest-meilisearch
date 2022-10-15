@@ -23,7 +23,7 @@
     "build": "rimraf lib && tsc -p tsconfig.build.json",
     "prepack": "npm run build"
   },
-  "version": "1.0.11",
+  "version": "1.0.12",
   "directories": {
     "lib": "lib"
   },
