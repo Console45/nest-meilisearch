@@ -46,7 +46,7 @@ import { MeiliSearchModule } from "nest-meilisearch";
     MeiliSearchModule.forRoot({
       host: "http://127.0.0.1:7700", // your meilisearch client server url
       apiKey: "MASTER_KEY", // your server api key
-      indices: [{ uid: "movies" }],
+      indices: ['movies','products'],
 
       // or  pass option for your indices like this
 
@@ -61,7 +61,7 @@ Your indices would be created once your app is loaded and you can start using th
 
 ### Usage
 
-Simply Inject the ``MeiliSearchService`` into your app and start using it. It extends all the methods provided by the [meilisearch-js](https://github.com/meilisearch/meilisearch-js) library.
+Simply Inject the `MeiliSearchService` into your app and start using it. It extends all the methods provided by the [meilisearch-js](https://github.com/meilisearch/meilisearch-js) library.
 
 ```typescript
 import { Inject, Injectable } from "@nestjs/common";
