@@ -3,5 +3,5 @@ export interface MeiliSearchOptions extends Config {
     indices?: {
         uid: string;
         options?: IndexOptions;
-    }[];
+    }[] | string[];
 }

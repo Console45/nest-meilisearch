@@ -14,7 +14,9 @@ export class MeiliSearchService extends MeiliSearch implements OnModuleInit {
 
   private async createIndicies() {
     for (let index of this.options.indices) {
-      await this.createIndex(index.uid, index.options);
+      if (typeof index === "string") {
+        await this.createIndex(index);
+      } else await this.createIndex(index.uid, index.options);
     }
   }
 }
