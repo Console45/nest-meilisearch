@@ -86,7 +86,7 @@ export class AppService {
 The following documentation resources may interest you
 
 - To use `meilisearch-js`, refer to the [documentation](https://github.com/meilisearch/meilisearch-js)
-- To manipulate documents, see the [Api referece](https://docs.meilisearch.com/reference/api/documents.html) or [documents](https://docs.meilisearch.com/learn/core_concepts/documents.html)
-- To learn more about search, see [Api referece](https://docs.meilisearch.com/reference/api/documents.html) or the guide on [search parameters](https://docs.meilisearch.com/reference/features/search_parameters.html)
-- To manage indexes, see [Api referece](https://docs.meilisearch.com/reference/api/documents.html) or [indexes](https://docs.meilisearch.com/learn/core_concepts/indexes.html)
-- To configure the index settings, see [Api referece](https://docs.meilisearch.com/reference/api/documents.html) or follow the guide on [settings parameters](https://docs.meilisearch.com/reference/features/settings.html)
+- To manipulate documents, see the [Api reference](https://docs.meilisearch.com/reference/api/documents.html) or [documents](https://docs.meilisearch.com/learn/core_concepts/documents.html)
+- To learn more about search, see [Api reference](https://docs.meilisearch.com/reference/api/documents.html) or the guide on [search parameters](https://docs.meilisearch.com/reference/features/search_parameters.html)
+- To manage indexes, see [Api reference](https://docs.meilisearch.com/reference/api/documents.html) or [indexes](https://docs.meilisearch.com/learn/core_concepts/indexes.html)
+- To configure the index settings, see [Api reference](https://docs.meilisearch.com/reference/api/documents.html) or follow the guide on [settings parameters](https://docs.meilisearch.com/reference/features/settings.html)
