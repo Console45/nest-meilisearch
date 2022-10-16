@@ -61,7 +61,7 @@ Your indices would be created once your app is loaded and you can start using th
 
 ### Usage
 
-Simply Inject the ``MeiliSearchService`` into your app and start using it. It extends all the methods provide by the [meilisearch-js](https://github.com/meilisearch/meilisearch-js) library.
+Simply Inject the ``MeiliSearchService`` into your app and start using it. It extends all the methods provided by the [meilisearch-js](https://github.com/meilisearch/meilisearch-js) library.
 
 ```typescript
 import { Inject, Injectable } from "@nestjs/common";
