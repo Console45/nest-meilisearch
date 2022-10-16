@@ -50,7 +50,7 @@ import { MeiliSearchModule } from "nest-meilisearch";
 
       // or  pass option for your indices like this
 
-      indices: [{ uid: uid: "movies", options: { primaryKey: 'id' } }],
+      indices: [{ uid: "movies", options: { primaryKey: 'id' } }],
     }),
   ],
 })
